@@ -1,5 +1,4 @@
-# Welcome to your Lovable project
-
+# Runtime instructions
 If you want to work locally using your own IDE, you can clone this repo and push changes. 
 
 Follow these steps:
