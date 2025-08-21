@@ -1,0 +1,18 @@
+<!-- 404.html for GitHub Pages SPA redirect -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/personal-website/" />
+    <script>
+      // If the user is on a sub-route, redirect to the correct path for React Router
+      var l = window.location;
+      var path = l.pathname.replace(/^\/personal-website/, "");
+      window.location.replace("/personal-website/" + (path ? "#" + path : "") + l.search + l.hash);
+    </script>
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected, <a href="/personal-website/">click here</a>.</p>
+  </body>
+</html>
